@@ -1,8 +1,6 @@
 # NASA Keypath Module
 
-New Age Keypath Traversal Technology.
-
-Traverse and manipulate Objects with ease using the newfangled string dot notation all the kids are raving about!
+New Age Keypath Traversal Technology. Traverse and manipulate Objects with ease using the newfangled string dot notation all the kids are raving about!
 
 ## Installation
 
@@ -57,6 +55,6 @@ path.get('users.0.admin'); // Is this user authorized?
 path.get('users.[].admin', true); // Get all users who are admin, and full object.
 
 // Manipulation
-path.get('count.admins'); // 2
+path.get('count.admins'); // 1
 path.set('count', path.get('users').length); // We can iterate for admins.
 ```
