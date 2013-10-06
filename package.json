@@ -1,0 +1,37 @@
+{
+  "name": "nasa-keypath",
+  "version": "0.0.1",
+  "description": "New Age Keypath Traversal Technology.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Nijikokun/nasa-keypath.git"
+  },
+  "keywords": [
+    "traversal",
+    "traverse",
+    "keypath",
+    "path",
+    "array",
+    "object",
+    "set",
+    "get",
+    "remove",
+    "dot",
+    "notation",
+    "notation",
+    "dot",
+    "nasa",
+    "module",
+    "key",
+    "keys",
+    "manipulation",
+    "string"
+  ],
+  "author": "Nijiko Yonskai",
+  "license": "MIT",
+  "readmeFilename": "readme.md"
+}
