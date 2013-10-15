@@ -70,8 +70,8 @@ nasa.keypath = function (reference, path, value, unset, complete) {
   }
 };
 
-nasa.keypath.get = function (reference, path) {
-  return nasa.keypath(reference, path);
+nasa.keypath.get = function (reference, path, complete) {
+  return nasa.keypath(reference, path, null, null, complete);
 };
 
 nasa.keypath.set = function (reference, path, value) {
