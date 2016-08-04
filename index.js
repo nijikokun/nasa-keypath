@@ -58,7 +58,7 @@ nasa.keypath = function (reference, path, value, unset, complete) {
       else reference[key] = nasa.keypath(reference[key], path, value, unset, complete);
     }
   } else {
-    if (value) {
+    if (value != null && typeof value !== 'undefined') {
       if (typeof reference !== 'object') reference = {};
       result[key] = reference[key] = value;
       return reference;
